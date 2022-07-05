@@ -16,10 +16,10 @@ module.exports = {
     filename: "[name].js",
     chunkFilename: "[name].chunk.js",
     libraryTarget: "umd",
-    library: "@noahsaso/cosmodal",
+    library: "@marsprotocol/cosmodal",
     umdNamedDefine: true,
     globalObject: "this",
-    publicPath: '',
+    publicPath: "",
   },
   devtool: "source-map",
   module: {

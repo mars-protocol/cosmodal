@@ -65,8 +65,8 @@ export function createKeplrChainInfo(
 
 const SimpleChainInfoList: Record<ChainInfoID, SimplifiedChainInfo> = {
   [ChainInfoID.Osmosis1]: {
-    rpc: "https://rpc-osmosis.keplr.app/", // test: "http://rpc-test.osmosis.zone/"
-    rest: "https://lcd-osmosis.keplr.app/", // test: "http://lcd-test.osmosis.zone/"
+    rpc: "https://rpc-osmosis.blockapsis.com/", // test: "http://rpc-test.osmosis.zone/"
+    rest: "https://lcd-osmosis.blockapsis.com/", // test: "http://lcd-test.osmosis.zone/"
     chainId: ChainInfoID.Osmosis1, // test: "osmo-test-4"
     chainName: "Osmosis",
     bip44: {
